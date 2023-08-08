@@ -29,6 +29,6 @@ usage: delete_latest_build.py apps_sandboxes.txt
 
 NOTE:
 
---apps_sandboxes.txt is a REQUIRED text file containing application and sandbox ID's: [appi_id:sandbox_id]. See example file. 
+--apps_sandboxes.txt is a REQUIRED text file containing application and sandbox ID's: [app_id:sandbox_id]. See example file. 
 
---If no [sandbix_id] is provided, the utility will delete the most recent policy level scan from the app profile
+--If no [sandbox_id] is provided, the utility will delete the most recent policy level scan from the app profile
