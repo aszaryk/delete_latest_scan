@@ -1,6 +1,6 @@
 # Delete Builds from Applications and Sandboxes
 
-Script to delete scans from application profiles and sandboxes, requiring a list of application ID's and sandbox ID's as input
+Script to delete scans from application profiles and sandboxes, requiring a list of application ID's and sandbox names as input
 
 Uses Python3
 
@@ -25,10 +25,10 @@ Install dependencies:
 
 Tested using Python3 
 
-usage: delete_latest_build.py apps_sandboxes.txt
+usage: delete_latest_build.py apps_sandboxes.csv
 
 NOTE:
 
---apps_sandboxes.txt is a REQUIRED text file containing application and sandbox ID's: [app_id:sandbox_id]. See example file. 
+--apps_sandboxes.csv is a REQUIRED text file containing application and sandbox ID's: [app_id,sandbox_name]. See example file.
 
---If no [sandbox_id] is provided, the utility will delete the most recent policy level scan from the app profile
+--If no [sandbox_name] is provided, the utility will delete the most recent policy level scan from the app profile
